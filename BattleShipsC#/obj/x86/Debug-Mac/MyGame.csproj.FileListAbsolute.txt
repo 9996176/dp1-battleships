@@ -1,0 +1,53 @@
+F:\Swin\S2\SWE20001\Lab\W5\ProjectTemplate\obj\x86\Debug-Mac\MyGame.csprojResolveAssemblyReference.cache
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\obj\x86\Debug-Mac\MyGame.csprojResolveAssemblyReference.cache
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\animations\startup.txt
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\bundles\FileDialog.txt
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\bundles\splash.txt
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\fonts\arial.ttf
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\fonts\cour.ttf
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\images\fdFile.png
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\images\fdFolder.png
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\images\FileDialog_Active.png
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\images\FileDialog_Background.png
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\images\FileDialog_Inactive.png
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\images\FileDialog_Scroll.png
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\images\Swinburne.jpg
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\images\SwinGameAni.png
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\panels\FileDialog.txt
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\sounds\error.wav
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\sounds\SwinGameStart.wav
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\SwinGame.icns
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\Resources\SwinGame.ico
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\MyGame.exe
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\MyGame.pdb
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\bin\Debug\SwinGame.dll
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\obj\x86\Debug-Mac\MyGame.exe
+F:\Swin\S2\SWE20001\Lab\W5\Project Template test 1\obj\x86\Debug-Mac\MyGame.pdb
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\animations\startup.txt
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\bundles\FileDialog.txt
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\bundles\splash.txt
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\fonts\arial.ttf
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\fonts\cour.ttf
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\images\fdFile.png
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\images\fdFolder.png
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\images\FileDialog_Active.png
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\images\FileDialog_Background.png
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\images\FileDialog_Inactive.png
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\images\FileDialog_Scroll.png
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\images\Swinburne.jpg
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\images\SwinGameAni.png
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\panels\FileDialog.txt
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\sounds\error.wav
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\sounds\SwinGameStart.wav
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\SwinGame.icns
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\Resources\SwinGame.ico
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\MyGame.exe
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\MyGame.pdb
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\bin\Debug\SwinGame.dll
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\obj\x86\Debug-Mac\MyGame.csprojResolveAssemblyReference.cache
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\obj\x86\Debug-Mac\MyGame.exe
+F:\Swin\S2\SWE20001\Lab\W5\BattelShip -Finish Converting\obj\x86\Debug-Mac\MyGame.pdb
