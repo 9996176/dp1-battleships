@@ -223,7 +223,15 @@ public class UtilityFunctions
     /// </summary>
     public static void DrawMessage()
     {
-			SwinGame.DrawText(Message, MESSAGE_COLOR, GameResources.GameFont("Courier"), FIELD_LEFT, MESSAGE_TOP);
+			if (Message.Contains("hit something!")) {
+				SwinGame.DrawText(Message, SwinGame.RGBAColor(255, 0, 0, 255), GameResources.GameFont("Arial"), FIELD_LEFT, MESSAGE_TOP);
+			}
+			else if (Message.Contains("destroyed the enemy's")) {
+				SwinGame.DrawText(Message, SwinGame.RGBAColor(255, 255, 0, 255), GameResources.GameFont("Arial"), FIELD_LEFT, MESSAGE_TOP);
+			}
+			else {
+				SwinGame.DrawText(Message, MESSAGE_COLOR, GameResources.GameFont("Arial"), FIELD_LEFT, MESSAGE_TOP);
+			}
     }
 
     /// <summary>
