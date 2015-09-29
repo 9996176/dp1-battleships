@@ -17,7 +17,7 @@ using SwinGameSDK;
 namespace MyGame{
 static class HighScoreController
 {
-	private const int NAME_WIDTH = 3;
+	private const int NAME_WIDTH = 10;
 
 	private const int SCORES_LEFT = 490;
 	/// <summary>
@@ -80,8 +80,8 @@ static class HighScoreController
 
 			line = input.ReadLine();
 
-			s.Name = line.Substring(0, NAME_WIDTH);
-			s.Value = Convert.ToInt32(line.Substring(NAME_WIDTH));
+			s.Name = line.Substring(0, 3); // (0,3) used to be (0, NAME_WIDTH)
+			s.Value = Convert.ToInt32(line.Substring(3)); // Substring(3) used to be (NAME_WIDTH)
 			_Scores.Add(s);
 		}
 		input.Close();
@@ -126,7 +126,7 @@ static class HighScoreController
 		if (_Scores.Count == 0)
 			LoadScores();
 
-			SwinGame.DrawText("   High Scores   ", Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, SCORES_HEADING);
+			SwinGame.DrawText("   High Scores   ", Color.White, GameResources.GameFont("HighScore"), SCORES_LEFT, SCORES_HEADING);
 
 		//For all of the scores
 		int i = 0;
@@ -137,9 +137,9 @@ static class HighScoreController
 
 			//for scores 1 - 9 use 01 - 09
 			if (i < 9) {
-					SwinGame.DrawText(" " + (i + 1) + ":   " + s.Name + "   " + s.Value, Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
+					SwinGame.DrawText(" " + (i + 1) + ":   " + s.Name + "   " + s.Value, Color.White, GameResources.GameFont("SmallHighScore"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
 			} else {
-					SwinGame.DrawText(i + 1 + ":   " + s.Name + "   " + s.Value, Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
+					SwinGame.DrawText(i + 1 + ":   " + s.Name + "   " + s.Value, Color.White, GameResources.GameFont("SmallHighScore"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
 			}
 		}
 	}
@@ -193,8 +193,8 @@ static class HighScoreController
 
 			s.Name = SwinGame.TextReadAsASCII();
 
-			if (s.Name.Length < 3) {
-				s.Name = s.Name + new string(Convert.ToChar(" "), 3 - s.Name.Length);
+			if (s.Name.Length < 10) { // Used to be: 3
+				s.Name = s.Name + new string(Convert.ToChar(" "), 10 - s.Name.Length); // Used to be 3
 			}
 
 			_Scores.RemoveAt(_Scores.Count - 1);
