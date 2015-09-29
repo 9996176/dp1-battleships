@@ -21,3 +21,4 @@ F:\Swin\S2\SWE20001\Lab\BattleShips\BattleShipsC#\bin\Debug\Resources\SwinGame.i
 F:\Swin\S2\SWE20001\Lab\BattleShips\BattleShipsC#\bin\Debug\MyGame.exe
 F:\Swin\S2\SWE20001\Lab\BattleShips\BattleShipsC#\bin\Debug\SwinGame.dll
 F:\Swin\S2\SWE20001\Lab\BattleShips\BattleShipsC#\obj\x86\Debug-Windows\MyGame.exe
+F:\Swin\S2\SWE20001\Lab\BattleShips\BattleShipsC#\obj\x86\Debug-Windows\MyGame.csprojResolveAssemblyReference.cache
