@@ -102,6 +102,10 @@ static class DeploymentController
 		//Errorfound by Q.H, TODO: (Mouse.Y) -> (Mouse.Y - Field_TOP)
 		row = Convert.ToInt32(Math.Floor((mouse.Y - UtilityFunctions.FIELD_TOP) / (UtilityFunctions.CELL_HEIGHT + UtilityFunctions.CELL_GAP)));
 		col = Convert.ToInt32(Math.Floor((mouse.X - UtilityFunctions.FIELD_LEFT) / (UtilityFunctions.CELL_WIDTH + UtilityFunctions.CELL_GAP)));
+		//Get previous posistion Added by QH Sprint 2
+		int preselectedrow = GameController.HumanPlayer.Ship(_selectedShip).Row;
+		int preselectedcol = GameController.HumanPlayer.Ship(_selectedShip).Column;
+		Direction preselecteddir = GameController.HumanPlayer.Ship(_selectedShip).Direction;
 
 		if (row >= 0 & row < GameController.HumanPlayer.PlayerGrid.Height) {
 			if (col >= 0 & col < GameController.HumanPlayer.PlayerGrid.Width) {
@@ -109,6 +113,7 @@ static class DeploymentController
 				try {
 					GameController.HumanPlayer.PlayerGrid.MoveShip(row, col, _selectedShip, _currentDirection);
 				} catch (Exception ex) {
+					GameController.HumanPlayer.PlayerGrid.MoveShip(preselectedrow, preselectedcol, _selectedShip, preselecteddir); // Added by QH Sprint 2
 					Audio.PlaySoundEffect(GameResources.GameSound("Error"));
 					UtilityFunctions.Message = ex.Message;
 				}
