@@ -135,8 +135,8 @@ static class HighScoreController
 
 			s = _Scores[i];
 
-			//for scores 1 - 9 use 01 - 09
-			if (i < 9) {
+			//for scores 1 - 15 use 01 - 15
+			if (i < 15) {
 					SwinGame.DrawText(" " + (i + 1) + ":   " + s.Name + "   " + s.Value, Color.White, GameResources.GameFont("SmallHighScore"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
 			} else {
 					SwinGame.DrawText(i + 1 + ":   " + s.Name + "   " + s.Value, Color.White, GameResources.GameFont("SmallHighScore"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
