@@ -92,10 +92,15 @@ public class BattleShipsGame
 		if (AttackCompleted != null) {
 			AttackCompleted(this, newAttack);
 		}
+		/* Change game play by Q.H. Players dont gain extra turns. 
+		 * Start of change
 		//change player if the last hit was a miss
 		if (newAttack.Value == ResultOfAttack.Miss) {
 			_playerIndex = otherPlayer;
 		}
+		*/
+			_playerIndex = otherPlayer;
+			//End of change
 		return newAttack;
 	}
 }

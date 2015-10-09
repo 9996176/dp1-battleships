@@ -109,6 +109,8 @@ public abstract class AIPlayer : Player
 		AttackResult result = default(AttackResult);
 		int row = 0;
 		int column = 0;
+		/* Change game play by Q.H. Players dont gain extra turns. 
+		 * Start of change
 		//keep hitting until a miss
 		do {
 			Delay();
@@ -119,6 +121,15 @@ public abstract class AIPlayer : Player
 			//take shot
 			ProcessShot(row, column, result);
 		} while (result.Value != ResultOfAttack.Miss && result.Value != ResultOfAttack.GameOver && !SwinGame.WindowCloseRequested());
+		*/
+			Delay();
+
+			GenerateCoords(ref row, ref column);
+			//generate coordinates for shot
+			result = _game.Shoot(row, column);
+			//take shot
+			ProcessShot(row, column, result);
+		// End of change
 		return result;
 	}
 

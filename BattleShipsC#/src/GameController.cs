@@ -250,6 +250,10 @@ public class GameController
     private static void CheckAttackResult(AttackResult result)
     {
         switch (result.Value) {
+        	case ResultOfAttack.Hit:
+				if (object.ReferenceEquals(_theGame.Player, ComputerPlayer))
+					AIAttack();
+				break;
             case ResultOfAttack.Miss:
                 if (object.ReferenceEquals(_theGame.Player, ComputerPlayer))
                     AIAttack();
