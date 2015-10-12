@@ -12,9 +12,9 @@ namespace MyGame{
 			NewFont("Arial", "arial.ttf", 16);
 			NewFont("Courier", "cour.ttf", 14);
 			NewFont("CourierSmall", "cour.ttf", 8);
-			NewFont("Menu", "ffaccess.ttf", 8);
-			NewFont("HighScore", "ffaccess.ttf", 20);
-			NewFont("SmallHighScore", "cour.ttf", 20);
+			NewFont("Menu", "ffaccess.ttf", 11);
+			NewFont("HighScore", "ffaccess.ttf", 15);
+			NewFont("SmallHighScore", "cour.ttf", 15);
 		}
 		private static void LoadImages()
 		{
@@ -37,6 +37,9 @@ namespace MyGame{
 			//Explosions
 			NewImage("Explosion", "explosion.png");
 			NewImage("Splash", "splash.png");
+
+			//Win
+			NewImage("Winning","win.jpg");
 		}
 		private static void LoadSounds()
 		{
