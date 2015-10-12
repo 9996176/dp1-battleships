@@ -76,6 +76,9 @@ public class GameController
         //create the players
         switch (_aiSetting) {
             //Errorfound by Q.H: Difficulty Setting'
+			case AIOption.Easy:
+				_ai = new AIEasyPlayer (_theGame);
+				break;
             case AIOption.Medium:
                 _ai = new AIMediumPlayer(_theGame);
                 break;
@@ -83,7 +86,7 @@ public class GameController
                 _ai = new AIHardPlayer(_theGame);
                 break;
             default:
-                _ai = new AIHardPlayer(_theGame);
+                _ai = new AIEasyPlayer(_theGame);
                 break;
         }
 
